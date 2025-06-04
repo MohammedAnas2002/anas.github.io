@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Personal Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="animated-title">👋 I'm Your Name</h1>
+    <button id="theme-toggle">🌓</button>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#publications">Publications</a>
+      <a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <img src="your-photo.jpg" alt="Your Photo" class="profile-pic"/>
+      <h2>PhD Student in [Your Field], [University]</h2>
+      <p>Exploring how AI and physics-based models can help build resilient cities.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I’m a researcher focused on earthquake risk modeling using hybrid AI + physics systems. My work lies at the intersection of computer science, geophysics, and resilience engineering.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="card">
+        <h3>Earthquake Risk Simulator</h3>
+        <p>A Python-based simulator combining real-time seismic data and AI for early warning.</p>
+        <a href="https://github.com/yourusername/earthquake-risk-sim">View on GitHub</a>
+      </div>
+      <div class="card">
+        <h3>Urban Resilience Dashboard</h3>
+        <p>Interactive tool using remote sensing + ML to assess vulnerability of urban zones.</p>
+        <a href="https://github.com/yourusername/resilience-dashboard">GitHub</a>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <ul>
+        <li>
+          <strong>Building Resilient Cities: A Review of How AI and Physics-Based Models Work Together to Predict and Mitigate Earthquake Risks</strong><br/>
+          <a href="#">Read Paper</a> |
+          <a href="#" onclick="copyBibTeX()">Copy BibTeX</a>
+          <pre id="bibtex" style="display:none;">
+@article{yourname2025resilient,
+  title={Building Resilient Cities: A Review...},
+  author={Your Name},
+  journal={Journal of Seismic AI},
+  year={2025}
+}
+          </pre>
+        </li>
+      </ul>
+    </section>
+
+    <section id="cv">
+      <h2>Curriculum Vitae</h2>
+      <a href="cv.pdf" target="_blank">Download CV (PDF)</a>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+      <p>GitHub: <a href="https://github.com/yourusername">yourusername</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/yourusername">yourusername</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Your Name</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
