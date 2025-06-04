@@ -1,0 +1,30 @@
+[
+  {
+    "title": "AI-Driven Seismic Tunnel Damage Prediction",
+    "description": "Developed a deep learning model for predicting tunnel damages and tracking serviceability under seismic conditions using advanced image processing techniques.",
+    "image": "project1.jpg",
+    "tags": ["Deep Learning", "Computer Vision", "Seismic Engineering"],
+    "link": "#"
+  },
+  {
+    "title": "Earthquake Risk Simulator",
+    "description": "Python-based simulator combining real-time seismic data and AI for early earthquake warning systems in urban environments.",
+    "image": "project2.jpg",
+    "tags": ["Python", "AI", "Seismic Analysis"],
+    "link": "#"
+  },
+  {
+    "title": "Urban Resilience Dashboard",
+    "description": "Interactive tool using remote sensing and machine learning to assess vulnerability of urban zones to natural disasters.",
+    "image": "project3.jpg",
+    "tags": ["ML", "GIS", "Dashboard"],
+    "link": "#"
+  },
+  {
+    "title": "Multi-hazard Damage Prediction Model",
+    "description": "Formulated ANN-based model for damage prediction in tunneling projects in earthquake and landslide-prone regions.",
+    "image": "project4.jpg",
+    "tags": ["ANN", "Geotechnical", "Risk Assessment"],
+    "link": "#"
+  }
+]
