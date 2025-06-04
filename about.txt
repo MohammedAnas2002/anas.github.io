@@ -1,0 +1,9 @@
+I'm Ansari Anas, a dedicated researcher in the field of AI and seismic engineering. Currently pursuing my PhD at Savitribai Phule Pune University, my work focuses on developing innovative solutions that combine artificial intelligence with physics-based models to predict and mitigate earthquake risks in urban environments.
+
+My research journey has taken me through diverse experiences at Microsoft Research, Tata Consultancy Services, and National Taiwan University of Science and Technology. These opportunities have allowed me to develop expertise in machine learning, computer vision, and resilient infrastructure design.
+
+I've published multiple papers in peer-reviewed journals and conferences, focusing on applications of AI in earthquake engineering, tunnel damage prediction, and multi-hazard risk assessment. My work has been recognized with awards including the Ministry of Education Scholarship in Taiwan and the Best Project Presentation award at SPPU.
+
+My technical skills include proficiency in Python, PyTorch, TensorFlow, computer vision techniques, seismic simulation, and cloud computing platforms. I'm passionate about creating solutions that bridge the gap between theoretical research and practical applications in disaster prevention and urban resilience.
+
+When I'm not researching, I enjoy contributing to open-source projects, mentoring students in AI, and exploring how technology can be leveraged for social good in developing regions.
