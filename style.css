@@ -1,95 +1,36 @@
-:root {
-  --bg: #fff;
-  --text: #000;
-  --card: #f4f4f4;
-}
-
-[data-theme="dark"] {
-  --bg: #121212;
-  --text: #e0e0e0;
-  --card: #1f1f1f;
-}
-
-body {
-  background: var(--bg);
-  color: var(--text);
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background: var(--card);
-  padding: 1em;
-  text-align: center;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2em;
-}
-
-.animated-title {
-  animation: fadeIn 2s ease-out;
-}
-
-nav a {
-  margin: 0 10px;
-  color: var(--text);
-  text-decoration: none;
-}
-
-main {
-  max-width: 800px;
-  margin: auto;
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 40px;
-}
-
-.profile-pic {
-  width: 150px;
-  border-radius: 50%;
-  display: block;
-  margin: auto;
-}
-
-.card {
-  background: var(--card);
-  padding: 1em;
-  border-radius: 10px;
-  margin-bottom: 1em;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.toggle-icon {
-  width: 32px;
-  height: 32px;
-  vertical-align: middle;
-  border-radius: 50%;
-}
-
+/* Add to existing styles */
 #theme-toggle {
   float: right;
   background: none;
   border: none;
   cursor: pointer;
   padding: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
 }
 
-footer {
-  text-align: center;
-  padding: 1em;
-  background: var(--card);
-  margin-top: 3em;
+.toggle-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s ease;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-20px); }
-  to   { opacity: 1; transform: translateY(0); }
+.moon-icon {
+  opacity: 1;
 }
+.sun-icon {
+  opacity: 0;
+}
+
+[data-theme="dark"] .moon-icon {
+  opacity: 0;
+}
+[data-theme="dark"] .sun-icon {
+  opacity: 1;
+}
+
+/* Rest of your existing CSS remains unchanged */
