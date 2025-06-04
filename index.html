@@ -1,39 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ansari | Personal Website</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ansari Anas - Academic Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <header>
-    <h1 class="animated-title">👋 I'm Ansari</h1>
-    <button id="theme-toggle" aria-label="Toggle Theme">
-      <svg class="moon-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-      <svg class="sun-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/>
-        <line x1="12" y1="1" x2="12" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        <line x1="12" y1="21" x2="12" y2="23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        <line x1="1" y1="12" x2="3" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        <line x1="21" y1="12" x2="23" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-      </svg>
-    </button>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#publications">Publications</a>
-      <a href="#cv">CV</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="header-container">
+      <div class="name-title">
+        <h1>Ansari Anas</h1>
+        <p>PhD Candidate in AI & Seismic Engineering</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+      </button>
+    </div>
   </header>
 
-  <!-- Rest of your HTML remains unchanged -->
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h2>Building Resilient Cities Through AI</h2>
+          <p>Researching hybrid AI-physics systems for earthquake risk prediction and urban resilience</p>
+          <div class="hero-links">
+            <a href="#research" class="btn">View Research</a>
+            <a href="Ansari_CV.pdf" class="btn-outline">Download CV</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="Ansari_Anas.jpg" alt="Ansari Anas">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I'm a PhD candidate at Savitribai Phule Pune University specializing in the intersection of artificial intelligence and seismic engineering. My research focuses on developing hybrid systems that combine physics-based models with deep learning to predict and mitigate earthquake risks in urban environments.</p>
+          
+          <p>With experience at Microsoft Research, Tata Consultancy Services, and National Taiwan University of Science and Technology, I've developed expertise in machine learning, computer vision, and resilient infrastructure design. My work aims to bridge the gap between theoretical AI research and practical applications in disaster prevention.</p>
+          
+          <div class="education">
+            <h3>Education</h3>
+            <ul>
+              <li>
+                <strong>PhD in AI & Seismic Engineering</strong>
+                <p>Savitribai Phule Pune University (2023-Present)</p>
+              </li>
+              <li>
+                <strong>B.Tech in Computer Engineering</strong>
+                <p>Savitribai Phule Pune University (2019-2023)</p>
+                <p>GPA: 8.84/10</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-skills">
+          <h3>Research Interests</h3>
+          <ul class="skills-list">
+            <li>Earthquake Risk Modeling</li>
+            <li>Hybrid AI-Physics Systems</li>
+            <li>Urban Resilience Engineering</li>
+            <li>Computer Vision for Infrastructure</li>
+            <li>Real-time Seismic Analysis</li>
+          </ul>
+          
+          <h3>Technical Skills</h3>
+          <div class="skill-bars">
+            <div class="skill">
+              <span>Python/PyTorch</span>
+              <div class="bar"><div class="level" style="width: 95%"></div></div>
+            </div>
+            <div class="skill">
+              <span>Seismic Simulation</span>
+              <div class="bar"><div class="level" style="width: 90%"></div></div>
+            </div>
+            <div class="skill">
+              <span>Computer Vision</span>
+              <div class="bar"><div class="level" style="width: 88%"></div></div>
+            </div>
+            <div class="skill">
+              <span>Cloud Computing</span>
+              <div class="bar"><div class="level" style="width: 85%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <h2 class="section-title">Research Projects</h2>
+      <div class="research-grid" id="research-grid">
+        <!-- Research projects will be loaded by JS -->
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <h2 class="section-title">Publications</h2>
+      <div class="pub-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="journal">Journal Articles</button>
+        <button class="filter-btn" data-filter="conference">Conference Papers</button>
+      </div>
+      <div class="pub-container" id="pub-container">
+        <!-- Publications will be loaded by JS -->
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <p><i class="fas fa-envelope"></i> anas.sanjivani@gmail.com</p>
+          <p><i class="fas fa-phone"></i> (+91) 9022863844</p>
+          <p><i class="fas fa-map-marker-alt"></i> Pune, Maharashtra, India</p>
+          
+          <div class="social-links">
+            <a href="https://github.com/ansarianas" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/ansarianas" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/ansarianas" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://scholar.google.com/citations?user=ansarianas" target="_blank"><i class="fab fa-google-scholar"></i></a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2024 Ansari Anas. All rights reserved.</p>
+      <p>Designed with <i class="fas fa-heart"></i> for resilient cities</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
