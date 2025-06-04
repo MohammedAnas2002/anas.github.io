@@ -3,11 +3,13 @@
   --text: #000;
   --card: #f4f4f4;
 }
+
 [data-theme="dark"] {
   --bg: #121212;
   --text: #e0e0e0;
   --card: #1f1f1f;
 }
+
 body {
   background: var(--bg);
   color: var(--text);
@@ -15,6 +17,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 header {
   background: var(--card);
   padding: 1em;
@@ -23,32 +26,39 @@ header {
   top: 0;
   z-index: 10;
 }
+
 header h1 {
   margin: 0;
   font-size: 2em;
 }
+
 .animated-title {
   animation: fadeIn 2s ease-out;
 }
+
 nav a {
   margin: 0 10px;
   color: var(--text);
   text-decoration: none;
 }
+
 main {
   max-width: 800px;
   margin: auto;
   padding: 20px;
 }
+
 section {
   margin-bottom: 40px;
 }
+
 .profile-pic {
   width: 150px;
   border-radius: 50%;
   display: block;
   margin: auto;
 }
+
 .card {
   background: var(--card);
   padding: 1em;
@@ -56,19 +66,29 @@ section {
   margin-bottom: 1em;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
+.toggle-icon {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
 #theme-toggle {
   float: right;
   background: none;
   border: none;
-  font-size: 1.5em;
   cursor: pointer;
+  padding: 0;
 }
+
 footer {
   text-align: center;
   padding: 1em;
   background: var(--card);
   margin-top: 3em;
 }
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-20px); }
   to   { opacity: 1; transform: translateY(0); }
